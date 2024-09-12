@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full z-10 text-white">
       <div>
-        <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-backgroundColor shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+        <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-bioGreen shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
           <div className="flex flex-row items-center cursos-pointer">
             <Link to="home" spy={true} smooth={true} duration={500}>
               <h1 className="text-2xl font-semibold">Biomed</h1>
@@ -59,7 +59,7 @@ const Navbar = () => {
             </Link>
           </nav>
           <div>
-            <button>
+            <button className="bg-bioBlue text-white px-4 py-2 rounded-md hover:bg-brightColor transition duration-300 ease-in-out">
                 Contáctenos
             </button>
           </div>

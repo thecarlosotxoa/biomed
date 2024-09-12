@@ -6,7 +6,8 @@ export default {
       colors: {
         hoverColor: "#a7aba7",
         brightColor: "#dd8036",
-        backgroundColor: "#0e7b64",
+        bioGreen: "#0e7b64",
+        bioBlue: "#365283",
       },
     },
   },
