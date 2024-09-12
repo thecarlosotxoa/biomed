@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import Contact from "../models/Contact"
+import Contact from "../models/Contact";
 
 const Navbar = () => {
   // Initialize the menu state to false (menu is closed by default)
@@ -93,7 +93,7 @@ const Navbar = () => {
             </button>
           </div>
 
-          {showForm && <Contact closeForm={close} />}
+          {showForm && <Contact closeForm={closeForm} />}
 
           <div className="lg:hidden flex items-center">
             {menu ? (
@@ -114,6 +114,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className="hover:text-hoverColor transition-all cursor-pointer"
+            onClick={closeMenu}
           >
             Home
           </Link>
@@ -123,6 +124,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className="hover:text-hoverColor transition-all cursor-pointer"
+            onClick={closeMenu}
           >
             About Us
           </Link>
@@ -132,6 +134,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className="hover:text-hoverColor transition-all cursor-pointer"
+            onClick={closeMenu}
           >
             Services
           </Link>
@@ -141,6 +144,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className="hover:text-hoverColor transition-all cursor-pointer"
+            onClick={closeMenu}
           >
             Doctors
           </Link>
@@ -150,11 +154,13 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className="hover:text-hoverColor transition-all cursor-pointer"
+            onClick={closeMenu}
           >
             Blog
           </Link>
           <div className="lg:hidden">
-            <button className="bg-bioBlue text-white px-4 py-2 rounded-md hover:bg-brightColor transition duration-300 ease-in-out">
+            <button className="bg-bioBlue text-white px-4 py-2 rounded-md hover:bg-brightColor transition duration-300 ease-in-out"
+            onClick={openForm}>
               Contáctenos
             </button>
           </div>
