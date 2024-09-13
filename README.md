@@ -11,6 +11,7 @@ npm install react-icons --save
 React slick
 https://react-slick.neostack.com/docs/get-started
 npm install react-slick --save
+npm install slick-carousel --save
 
 React Scroll
 React component for animating vertical scrolling
