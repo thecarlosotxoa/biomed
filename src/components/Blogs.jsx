@@ -14,7 +14,7 @@ const Blogs = () => {
       <div className=" flex flex-col items-center lg:flex-row justify-between">
         <div>
           <h1 className=" text-4xl font-semibold text-center lg:text-start">
-            Latest Post
+            Renueva tu cuerpo en un espacio diseñado para tu bienestar total.
           </h1>
           <p className=" mt-2 text-center lg:text-start">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
@@ -22,7 +22,7 @@ const Blogs = () => {
           </p>
         </div>
         <div className=" mt-4 lg:mt-0">
-          <Button title="Our Articles" />
+          <Button title="Conozca mas sobre nosotros" />
         </div>
       </div>
       <div className=" my-8">
