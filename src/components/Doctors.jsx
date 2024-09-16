@@ -102,13 +102,13 @@ const Doctors = () => {
         </div>
         <div className="flex gap-5 mt-4 lg:mt-0">
           <button
-            className=" bg-[#d5f2ec] text-backgroundColor px-4 py-2 rounded-lg active:bg-[#ade9dc]"
+            className=" bg-[#d5f2ec] text-bioGreen px-4 py-2 rounded-lg active:bg-[#ade9dc]"
             onClick={() => slider.current.slickPrev()}
           >
             <FaArrowLeft size={25} />
           </button>
           <button
-            className=" bg-[#d5f2ec] text-backgroundColor px-4 py-2 rounded-lg active:bg-[#ade9dc]"
+            className=" bg-[#d5f2ec] text-bioGreen px-4 py-2 rounded-lg active:bg-[#ade9dc]"
             onClick={() => slider.current.slickNext()}
           >
             <FaArrowRight size={25} />
@@ -119,14 +119,14 @@ const Doctors = () => {
         <Slider ref={slider} {...settings}>
           {data.map((e, index) => (
             <div
-              className="h-[350px] text-black rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] mb-2 cursor-pointer"
+              className="h-auto text-black rounded-xl shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] mb-2 cursor-pointer"
               key={index}
             >
               <div>
                 <img
                   src={e.img}
                   alt="img"
-                  className="h-56 rounded-t-xl w-full"
+                  className="h-auto rounded-t-xl w-full"
                 />
               </div>
 
