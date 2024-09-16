@@ -9,33 +9,43 @@ const Doctors = () => {
   const data = [
     {
       img: "/src/assets/img/doc1.jpg",
-      name: "Dr. Serena Mitchell",
-      specialties: "Orthopedic Surgeon",
+      name: "Dra. Carolina García",
+      specialties: "Psicología Infantil",
     },
     {
       img: "/src/assets/img/doc2.jpg",
-      name: "Dr. Julian Bennett",
-      specialties: "Cardiologist",
+      name: "Lcda. Stephanie Ledezma",
+      specialties: "Fisioterapeuta",
     },
     {
       img: "/src/assets/img/doc3.jpg",
-      name: "Dr. Camila Rodriguez",
-      specialties: "Pediatrician",
+      name: "Dra. Laura Cambronero",
+      specialties: "Odontología",
     },
     {
       img: "/src/assets/img/doc4.jpg",
-      name: "Dr. Victor Nguyen",
-      specialties: "Neurologist",
+      name: "Dr. Alejandro Sanabria",
+      specialties: "Cardiología",
     },
     {
       img: "/src/assets/img/doc5.jpg",
-      name: "Dr. Ethan Carter",
-      specialties: "Dermatologist",
+      name: "Lcda. María Miranda",
+      specialties: "Terapia Ocupacional",
     },
     {
       img: "/src/assets/img/doc6.jpg",
-      name: "Dr. Olivia Martinez",
-      specialties: "Ophthalmologist",
+      name: "Dra. Alicia Castro",
+      specialties: "Terapia respiratoria y rehabilitación",
+    },
+    {
+      img: "/src/assets/img/doc7.jpg",
+      name: "Dr. Ronny Vega",
+      specialties: "Especialista en Ozonoterapia y medicina regenerativa",
+    },
+    {
+      img: "/src/assets/img/doc8.jpg",
+      name: "Dra. Ariana Morales",
+      specialties: "Especialista en medicina estética",
     },
   ];
 
@@ -116,13 +126,13 @@ const Doctors = () => {
                 <img
                   src={e.img}
                   alt="img"
-                  className=" h-56 rounded-t-xl w-full"
+                  className="h-56 rounded-t-xl w-full"
                 />
               </div>
 
-              <div className=" flex flex-col justify-center items-center">
-                <h1 className=" font-semibold text-xl pt-4">{e.name}</h1>
-                <h3 className=" pt-2">{e.specialties}</h3>
+              <div className="flex flex-col justify-center items-center">
+                <h1 className="font-semibold text-xl pt-4">{e.name}</h1>
+                <h3 className="pt-2">{e.specialties}</h3>
               </div>
             </div>
           ))}
