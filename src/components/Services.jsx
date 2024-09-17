@@ -14,9 +14,15 @@ const Services = () => {
     <div className="min-h-screen flex flex-col justify-center lg:px-32 px-5 pt-24 lg:pt-16">
       <div className="flex flex-col items-center lg:flex-row justify-between">
         <div>
-          <h1 className="text-4xl font-semibold text-center lg:text-start">Nuestros servicios</h1>
+          <h1 className="text-4xl font-semibold text-center lg:text-start">
+            Nuestros servicios
+          </h1>
           <p className="mt-2 text-center lg:text-start">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim ipsum
+            Nuestro enfoque se centra en anticipar y prevenir enfermedades antes
+            de que aparezcan,
+            <br></br>
+            promoviendo un estilo de vida saludable que garantice el bienestar
+            físico y mental de nuestros pacientes.
           </p>
         </div>
         <div className="mt-4 lg:mt-0">
@@ -24,9 +30,21 @@ const Services = () => {
         </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-5 pt-14">
-        <ServicesCard icon={icon1} title="Servicio de Laboratorio" />
-        <ServicesCard icon={icon2} title="Medicina Integral" />
-        <ServicesCard icon={icon3} title="Medicina Regenerativa" />
+        <ServicesCard
+          icon={icon3}
+          title="Medicina Medicina General para Toda la Familia"
+          text="En nuestra clínica ofrecemos servicios de medicina general, brindando atención primaria y preventiva para todas las edades."
+        />
+        <ServicesCard
+          icon={icon2}
+          title="Bienestar Integral"
+          text="En nuestro centro médico, complementamos los servicios de salud con prácticas de bienestar como yoga, pilates y diversas terapias físicas. Ofrecemos un enfoque integral que busca armonizar cuerpo y mente."
+        />
+        <ServicesCard
+          icon={icon1}
+          title="Servicio de Laboratorio"
+          text="Contamos con tecnología moderna y un equipo profesional calificado para realizar exámenes que contribuyen al diagnóstico y seguimiento de diversas condiciones de salud."
+        />
       </div>
     </div>
   );
