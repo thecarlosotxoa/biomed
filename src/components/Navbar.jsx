@@ -33,11 +33,6 @@ const Navbar = () => {
       <div>
         <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-bioGreen shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
           <div className="flex flex-row items-center cursos-pointer">
-            <Link to="home" spy={true} smooth={true} duration={500}>
-              <h1 className="text-2xl font-semibold">Biomed</h1>
-            </Link>
-          </div>
-          <nav className="hidden lg:flex flex-row items-center text-lg font-medium gap-8">
             <Link
               to="home"
               spy={true}
@@ -45,8 +40,10 @@ const Navbar = () => {
               duration={500}
               className="hover:text-hoverColor transition-all cursor-pointer"
             >
-              Home
+              <h1 className="text-2xl font-semibold">Biomed</h1>
             </Link>
+          </div>
+          <nav className="hidden lg:flex flex-row items-center text-lg font-medium gap-8">
             <Link
               to="about"
               spy={true}
@@ -54,7 +51,7 @@ const Navbar = () => {
               duration={500}
               className="hover:text-hoverColor transition-all cursor-pointer"
             >
-              About Us
+              Nosotros
             </Link>
             <Link
               to="services"
@@ -63,7 +60,7 @@ const Navbar = () => {
               duration={500}
               className="hover:text-hoverColor transition-all cursor-pointer"
             >
-              Services
+              Servicios
             </Link>
             <Link
               to="doctors"
@@ -72,7 +69,7 @@ const Navbar = () => {
               duration={500}
               className="hover:text-hoverColor transition-all cursor-pointer"
             >
-              Doctors
+              Especialidades
             </Link>
             <Link
               to="blog"
@@ -159,8 +156,10 @@ const Navbar = () => {
             Blog
           </Link>
           <div className="lg:hidden">
-            <button className="bg-bioBlue text-white px-4 py-2 rounded-md hover:bg-brightColor transition duration-300 ease-in-out"
-            onClick={openForm}>
+            <button
+              className="bg-bioBlue text-white px-4 py-2 rounded-md hover:bg-brightColor transition duration-300 ease-in-out"
+              onClick={openForm}
+            >
               Contáctenos
             </button>
           </div>

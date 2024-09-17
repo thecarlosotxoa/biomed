@@ -20,7 +20,7 @@ const Services = () => {
           </p>
         </div>
         <div className="mt-4 lg:mt-0">
-          <Button title="Ver Servicios" />
+          <Button to="doctors" title="Ver Especialistas" />
         </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-5 pt-14">
