@@ -86,7 +86,7 @@ const Navbar = () => {
               className="bg-bioBlue text-white px-4 py-2 rounded-md hover:bg-brightColor transition duration-300 ease-in-out"
               onClick={openForm}
             >
-              Contáctenos
+              Agende su cita
             </button>
           </div>
 
@@ -160,7 +160,7 @@ const Navbar = () => {
               className="bg-bioBlue text-white px-4 py-2 rounded-md hover:bg-brightColor transition duration-300 ease-in-out"
               onClick={openForm}
             >
-              Contáctenos
+              Agende su cita
             </button>
           </div>
         </div>
