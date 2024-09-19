@@ -13,7 +13,7 @@ const Home = () => {
           <br></br>
           Profesionales comprometidos con su bienestar. 
           <br></br>
-          Más de 20 especializaciones médicas
+          Más de 20 especialidades médicas
         </p>
 
         <Button to="services" title="Ver Servicios" />

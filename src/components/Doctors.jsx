@@ -14,12 +14,7 @@ import doc7 from '../assets/img/doc7.jpg';
 import doc8 from '../assets/img/doc8.jpg';
 
 const Doctors = () => {
-  const data = [
-    {
-      img: doc1,
-      name: "Dra. Carolina García",
-      specialties: "Psicología Infantil",
-    },
+  const data = [    
     {
       img: doc2,
       name: "Lcda. Stephanie Ledezma",
