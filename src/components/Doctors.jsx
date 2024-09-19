@@ -4,46 +4,54 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
+import doc1 from '../assets/img/doc1.jpg';
+import doc2 from '../assets/img/doc2.jpg';
+import doc3 from '../assets/img/doc3.jpg';
+import doc4 from '../assets/img/doc4.jpg';
+import doc5 from '../assets/img/doc5.jpg';
+import doc6 from '../assets/img/doc6.jpg';
+import doc7 from '../assets/img/doc7.jpg';
+import doc8 from '../assets/img/doc8.jpg';
 
 const Doctors = () => {
   const data = [
     {
-      img: "https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/436349577_971016331699010_1797170312131625052_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fwYEUWUW6mYQ7kNvgEU7PqH&_nc_ht=scontent-qro1-2.xx&_nc_gid=AAj68LuObevwZ98c93xjdLc&oh=00_AYABvL4wz8zLgqQaWx44EFKIXcD7IH13a1vYCmG1u2woNw&oe=66EF92DE",
+      img: doc1,
       name: "Dra. Carolina García",
       specialties: "Psicología Infantil",
     },
     {
-      img: "/src/assets/img/doc2.jpg",
+      img: doc2,
       name: "Lcda. Stephanie Ledezma",
       specialties: "Fisioterapeuta",
     },
     {
-      img: "/src/assets/img/doc3.jpg",
+      img: doc3,
       name: "Dra. Laura Cambronero",
       specialties: "Odontología",
     },
     {
-      img: "/src/assets/img/doc4.jpg",
+      img: doc4,
       name: "Dr. Alejandro Sanabria",
       specialties: "Cardiología",
     },
     {
-      img: "/src/assets/img/doc5.jpg",
+      img: doc5,
       name: "Lcda. María Miranda",
       specialties: "Terapia Ocupacional",
     },
     {
-      img: "/src/assets/img/doc6.jpg",
+      img: doc6,
       name: "Dra. Alicia Castro",
       specialties: "Terapia respiratoria y rehabilitación",
     },
     {
-      img: "/src/assets/img/doc7.jpg",
+      img: doc7,
       name: "Dr. Ronny Vega",
       specialties: "Especialista en Ozonoterapia y medicina regenerativa",
     },
     {
-      img: "/src/assets/img/doc8.jpg",
+      img: doc8,
       name: "Dra. Ariana Morales",
       specialties: "Especialista en medicina estética",
     },
