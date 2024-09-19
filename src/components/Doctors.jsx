@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Doctors = () => {
   const data = [
     {
-      img: "/src/assets/img/doc1.jpg",
+      img: "https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/436349577_971016331699010_1797170312131625052_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fwYEUWUW6mYQ7kNvgEU7PqH&_nc_ht=scontent-qro1-2.xx&_nc_gid=AAj68LuObevwZ98c93xjdLc&oh=00_AYABvL4wz8zLgqQaWx44EFKIXcD7IH13a1vYCmG1u2woNw&oe=66EF92DE",
       name: "Dra. Carolina García",
       specialties: "Psicología Infantil",
     },
