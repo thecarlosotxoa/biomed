@@ -1,6 +1,6 @@
 {
+  "homepage": "https://thecarlosotxoa.github.io/biomed/",
   "name": "biomed",
-  "homepage": "https://{thecarlosotxoa}.github.io/{biomed}",
   "private": true,
   "version": "0.0.0",
   "type": "module",
